@@ -192,6 +192,7 @@ public class Revolt {
     private static boolean isOnBonus(int playerRow, int playerCol, char[][] matrix) {
         return matrix[playerRow][playerCol] == 'B';
     }
+
     private static boolean isOnTrap(int playerRow, int playerCol, char[][] matrix) {
         return matrix[playerRow][playerCol] == 'T';
     }
